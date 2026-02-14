@@ -1,5 +1,8 @@
+# IMPORTANT:
+# Requires bConvertRefactor in the same directory (under the same name)
+
 from datetime import datetime
-from bConvertRefactor import base as b
+from bConvertRefactor import base as b # change "bConvertRefactor" if you renamed the file for that
 from time import sleep as wait
 from colorama import init, Fore as c
 from sys import argv
@@ -71,4 +74,5 @@ while True:
     wait(1)
     print("\033[F\033[F\033[F\033[F", end="")
     
+
 print("\n" * 4)
